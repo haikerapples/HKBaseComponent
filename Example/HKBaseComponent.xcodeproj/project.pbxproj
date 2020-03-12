@@ -15,6 +15,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		959D4811096820D49B76986E /* Pods_HKBaseComponent_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F7AB183CE52EC4BD8BF607 /* Pods_HKBaseComponent_Example.framework */; };
+		FA87366E241A2245000FBBAC /* HKComponentExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA87366D241A2245000FBBAC /* HKComponentExtension.swift */; };
+		FA87366F241A2245000FBBAC /* HKComponentExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA87366D241A2245000FBBAC /* HKComponentExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		BFA6C208A61D35FF9C2E4573 /* Pods-HKBaseComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKBaseComponent_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HKBaseComponent_Tests/Pods-HKBaseComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7F7AB183CE52EC4BD8BF607 /* Pods_HKBaseComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HKBaseComponent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D15D3557DC9A88387FDA2C /* Pods_HKBaseComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HKBaseComponent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA87366D241A2245000FBBAC /* HKComponentExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKComponentExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,7 @@
 		607FACD21AFB9204008FA782 /* Example for HKBaseComponent */ = {
 			isa = PBXGroup;
 			children = (
+				FA87366C241A2203000FBBAC /* HKTool */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -159,6 +163,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FA87366C241A2203000FBBAC /* HKTool */ = {
+			isa = PBXGroup;
+			children = (
+				FA87366D241A2245000FBBAC /* HKComponentExtension.swift */,
+			);
+			name = HKTool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,10 +223,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8ET8KP2R24;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8ET8KP2R24;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -314,6 +328,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				FA87366E241A2245000FBBAC /* HKComponentExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA87366F241A2245000FBBAC /* HKComponentExtension.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +475,7 @@
 			baseConfigurationReference = 6E0867A8A8DAB69A9385C336 /* Pods-HKBaseComponent_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8ET8KP2R24;
 				INFOPLIST_FILE = HKBaseComponent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -474,6 +491,7 @@
 			baseConfigurationReference = 7CCEDE4937E6414598E19DCE /* Pods-HKBaseComponent_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8ET8KP2R24;
 				INFOPLIST_FILE = HKBaseComponent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -488,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BFA6C208A61D35FF9C2E4573 /* Pods-HKBaseComponent_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 8ET8KP2R24;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -510,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 90B1C472C553482B4AFF4D6D /* Pods-HKBaseComponent_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 8ET8KP2R24;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
