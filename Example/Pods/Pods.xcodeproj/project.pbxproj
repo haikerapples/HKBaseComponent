@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06E0A1407F7FFC53A277D837C51A6B8F /* HKBaseComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D909462D25801D270688365C86C56ABE /* HKBaseComponent-dummy.m */; };
-		1CF7D081130C130174AFC469E3061862 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240AFE772849502FC8CA85FCDF6DF03E /* ReplaceMe.swift */; };
+		1C10446F026D7DE7F236F860C7109817 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125F38ABD222380605ACE1596538372B /* ReplaceMe.swift */; };
 		1F55E04D699D34B4EB38F17EB1D14CA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4799FE50AE6EE0921F8BC11E2605D455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5415728CF98A1C925B23A1FF4D587202 /* HKBaseComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AABAC68E5C53393A2E82C568F21BA9F5 /* HKBaseComponent-dummy.m */; };
 		5C71F5D6053602A9720345CB1A93230A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7590AFF2764A2F6BF9A69587880921E4 /* ReplaceMe1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B72AEA900B4A9EDE103530563107A6E /* ReplaceMe1.swift */; };
 		92326942F70F37E1490A19FA84D9EF74 /* Pods-HKBaseComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 422EF468097FAAA057047AB699D2C93C /* Pods-HKBaseComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E6ADF2C5A9BB70A25760D461B091D58 /* Pods-HKBaseComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87333AE6094A2DDAF4A0F73F1EED2525 /* Pods-HKBaseComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C14C87C05E9A84D7E054CF9D635C579F /* HKBaseComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7BC7E3D22E0BC4B54C4BDEC85773A1 /* HKBaseComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA4A6E419EC5CC60C68F40ED07B953A9 /* Pods-HKBaseComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AEADFFF43B52DB273FCE329C06EE21 /* Pods-HKBaseComponent_Example-dummy.m */; };
+		D3B5AD2E8E3D1C33177F01135D42C40F /* HKBaseComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEBACD5C17EFF312207599F9D5E39561 /* HKBaseComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB998DD489620D36C1A8FBAEB83F15E1 /* Pods-HKBaseComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E23CF316392DC207244FE61910D30F39 /* Pods-HKBaseComponent_Tests-dummy.m */; };
-		F16E76965233D5CDF899806266FE46FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,37 +38,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1368AE070921333DC885BBD368DD5DEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		13B2F738A0D2C45AF4763D12FE3B8B7F /* HKBaseComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HKBaseComponent-Info.plist"; sourceTree = "<group>"; };
+		125F38ABD222380605ACE1596538372B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		16543FCE78A7400A08C0A52BDC72F44C /* Pods-HKBaseComponent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKBaseComponent_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		240AFE772849502FC8CA85FCDF6DF03E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = HKBaseComponent/HKExtension/ReplaceMe.swift; sourceTree = "<group>"; };
 		29975CC4A7B3EC09D9E42F637E01D617 /* Pods-HKBaseComponent_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKBaseComponent_Tests-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3808732D716CB3340E722E0D860CF91B /* Pods-HKBaseComponent_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKBaseComponent_Example-Info.plist"; sourceTree = "<group>"; };
+		3AFE6FF30A25B0F804B4C71DCD170D83 /* HKBaseComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKBaseComponent-prefix.pch"; sourceTree = "<group>"; };
 		422EF468097FAAA057047AB699D2C93C /* Pods-HKBaseComponent_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HKBaseComponent_Example-umbrella.h"; sourceTree = "<group>"; };
 		4AA3A8C4D7DBFC4BF5D71E9F41A890EF /* Pods-HKBaseComponent_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKBaseComponent_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4FEE32041353EBC0ECA5FCF7377DA221 /* Pods-HKBaseComponent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKBaseComponent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		540ECC66F31C8D71A8F01821C7D332AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		62C9123D43B9424A7A8BA6B40B37678F /* HKBaseComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HKBaseComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5B6BB031814DFE71C30E7822C229C3F9 /* HKBaseComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HKBaseComponent.xcconfig; sourceTree = "<group>"; };
+		5B72AEA900B4A9EDE103530563107A6E /* ReplaceMe1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe1.swift; sourceTree = "<group>"; };
 		642241723E665F0834A70BCCF1654AED /* Pods_HKBaseComponent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HKBaseComponent_Tests.framework; path = "Pods-HKBaseComponent_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A00AD895BBE6A87C5916CA1C71B554A /* HKBaseComponent.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HKBaseComponent.xcconfig; sourceTree = "<group>"; };
+		7DB6FC71604D622E4E5ED44293C0D703 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		821828D4A48201FF22C92105B3681903 /* Pods_HKBaseComponent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HKBaseComponent_Example.framework; path = "Pods-HKBaseComponent_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87333AE6094A2DDAF4A0F73F1EED2525 /* Pods-HKBaseComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HKBaseComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9328EA6D800BBB699684501372E8A51A /* Pods-HKBaseComponent_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HKBaseComponent_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		94198FDB3C79CC59DF1B01C04BA620C7 /* Pods-HKBaseComponent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKBaseComponent_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DBD186E45A22C29B4FCF07AEA8472ED /* Pods-HKBaseComponent_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HKBaseComponent_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AF7BC7E3D22E0BC4B54C4BDEC85773A1 /* HKBaseComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKBaseComponent-umbrella.h"; sourceTree = "<group>"; };
-		B9D838007F27DDB12D43BF62DE3A2FDF /* HKBaseComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKBaseComponent-prefix.pch"; sourceTree = "<group>"; };
+		AABAC68E5C53393A2E82C568F21BA9F5 /* HKBaseComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HKBaseComponent-dummy.m"; sourceTree = "<group>"; };
+		BBCDCF47D1D3141E98E2D831A37EDCF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BEBACD5C17EFF312207599F9D5E39561 /* HKBaseComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HKBaseComponent-umbrella.h"; sourceTree = "<group>"; };
 		C697B6CF06D3C72B3F565E68D9DCC800 /* Pods-HKBaseComponent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HKBaseComponent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C77748A19FA9D28FE0668C4FE08406BA /* HKBaseComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HKBaseComponent.framework; path = HKBaseComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6FFC359E58D1A7BBC6062639ED8283 /* Pods-HKBaseComponent_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HKBaseComponent_Tests.modulemap"; sourceTree = "<group>"; };
 		D5AEADFFF43B52DB273FCE329C06EE21 /* Pods-HKBaseComponent_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HKBaseComponent_Example-dummy.m"; sourceTree = "<group>"; };
-		D909462D25801D270688365C86C56ABE /* HKBaseComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HKBaseComponent-dummy.m"; sourceTree = "<group>"; };
 		D960DA128AA2484C8CA3580D589385BE /* Pods-HKBaseComponent_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HKBaseComponent_Example.modulemap"; sourceTree = "<group>"; };
 		E23CF316392DC207244FE61910D30F39 /* Pods-HKBaseComponent_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HKBaseComponent_Tests-dummy.m"; sourceTree = "<group>"; };
+		E3C537B264629C4AE56593902EF61D49 /* HKBaseComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HKBaseComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E67D893DCEF8D75509998723C42FA56F /* HKBaseComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HKBaseComponent.modulemap; sourceTree = "<group>"; };
+		F22831BEC85E27E5EC34CE714A067C4F /* HKBaseComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HKBaseComponent-Info.plist"; sourceTree = "<group>"; };
 		F7E1ED8D3664407D40F9E8F9FC40CD4B /* Pods-HKBaseComponent_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HKBaseComponent_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F8DBCCDC1EAD87A60302051CD34A1097 /* HKBaseComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HKBaseComponent.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +81,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8861BB292ECA59854AB576A0E769D892 /* Frameworks */ = {
+		8D6A19DEDFAF165FD82DD31E5A700F18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F16E76965233D5CDF899806266FE46FF /* Foundation.framework in Frameworks */,
+				4799FE50AE6EE0921F8BC11E2605D455 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,37 +116,37 @@
 			path = "Target Support Files/Pods-HKBaseComponent_Example";
 			sourceTree = "<group>";
 		};
-		39CAB35D0E13070C4E44428AE33768F4 /* HKExtension */ = {
+		6272F470A8D25770040A77AB645CA899 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = HKExtension;
-			sourceTree = "<group>";
-		};
-		6D40DECFD6106A60F4B15FE4377C4299 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F8DBCCDC1EAD87A60302051CD34A1097 /* HKBaseComponent.modulemap */,
-				6A00AD895BBE6A87C5916CA1C71B554A /* HKBaseComponent.xcconfig */,
-				D909462D25801D270688365C86C56ABE /* HKBaseComponent-dummy.m */,
-				13B2F738A0D2C45AF4763D12FE3B8B7F /* HKBaseComponent-Info.plist */,
-				B9D838007F27DDB12D43BF62DE3A2FDF /* HKBaseComponent-prefix.pch */,
-				AF7BC7E3D22E0BC4B54C4BDEC85773A1 /* HKBaseComponent-umbrella.h */,
+				E67D893DCEF8D75509998723C42FA56F /* HKBaseComponent.modulemap */,
+				5B6BB031814DFE71C30E7822C229C3F9 /* HKBaseComponent.xcconfig */,
+				AABAC68E5C53393A2E82C568F21BA9F5 /* HKBaseComponent-dummy.m */,
+				F22831BEC85E27E5EC34CE714A067C4F /* HKBaseComponent-Info.plist */,
+				3AFE6FF30A25B0F804B4C71DCD170D83 /* HKBaseComponent-prefix.pch */,
+				BEBACD5C17EFF312207599F9D5E39561 /* HKBaseComponent-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HKBaseComponent";
 			sourceTree = "<group>";
 		};
-		74343DE1A24C5463E28F16F4623E0C9D /* HKBaseComponent */ = {
+		6F88B301B6A849DFC334991815DBB034 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				240AFE772849502FC8CA85FCDF6DF03E /* ReplaceMe.swift */,
-				39CAB35D0E13070C4E44428AE33768F4 /* HKExtension */,
-				E2C2E23C0702FEB7F8EAF3E14BE35D40 /* Pod */,
-				6D40DECFD6106A60F4B15FE4377C4299 /* Support Files */,
+				E3C537B264629C4AE56593902EF61D49 /* HKBaseComponent.podspec */,
+				BBCDCF47D1D3141E98E2D831A37EDCF8 /* LICENSE */,
+				7DB6FC71604D622E4E5ED44293C0D703 /* README.md */,
 			);
-			name = HKBaseComponent;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9442223787097BB33BDC45DCFAA11AE5 /* HKExtension */ = {
+			isa = PBXGroup;
+			children = (
+				125F38ABD222380605ACE1596538372B /* ReplaceMe.swift */,
+			);
+			name = HKExtension;
+			path = HKBaseComponent/HKExtension;
 			sourceTree = "<group>";
 		};
 		9995EC27F0B0526A532708183B2166E3 /* Targets Support Files */ = {
@@ -169,7 +171,7 @@
 		B16860141A9B4F22EA84D4338B3787CB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				74343DE1A24C5463E28F16F4623E0C9D /* HKBaseComponent */,
+				C612949D6DD6DD3305BD8801EA333FCC /* HKBaseComponent */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -180,6 +182,27 @@
 				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5F23D8BB8217986EA0987173BDAFB58 /* HKComponent */ = {
+			isa = PBXGroup;
+			children = (
+				5B72AEA900B4A9EDE103530563107A6E /* ReplaceMe1.swift */,
+			);
+			name = HKComponent;
+			path = HKBaseComponent/HKComponent;
+			sourceTree = "<group>";
+		};
+		C612949D6DD6DD3305BD8801EA333FCC /* HKBaseComponent */ = {
+			isa = PBXGroup;
+			children = (
+				C5F23D8BB8217986EA0987173BDAFB58 /* HKComponent */,
+				9442223787097BB33BDC45DCFAA11AE5 /* HKExtension */,
+				6F88B301B6A849DFC334991815DBB034 /* Pod */,
+				6272F470A8D25770040A77AB645CA899 /* Support Files */,
+			);
+			name = HKBaseComponent;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -217,19 +240,17 @@
 			path = "Target Support Files/Pods-HKBaseComponent_Tests";
 			sourceTree = "<group>";
 		};
-		E2C2E23C0702FEB7F8EAF3E14BE35D40 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				62C9123D43B9424A7A8BA6B40B37678F /* HKBaseComponent.podspec */,
-				1368AE070921333DC885BBD368DD5DEA /* LICENSE */,
-				540ECC66F31C8D71A8F01821C7D332AC /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		85ACAD58F00B25E0917A9829B445A3D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B5AD2E8E3D1C33177F01135D42C40F /* HKBaseComponent-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C9FBEECDC771427B366128833995F42 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,14 +264,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E6ADF2C5A9BB70A25760D461B091D58 /* Pods-HKBaseComponent_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F11747F34ED186EBFCDD14491F2EC053 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C14C87C05E9A84D7E054CF9D635C579F /* HKBaseComponent-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,12 +291,12 @@
 		};
 		5174E2B083BBFF95BB18699EAE4A43C3 /* HKBaseComponent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1806E11EA0D3C5A7D83C4DDB8F306617 /* Build configuration list for PBXNativeTarget "HKBaseComponent" */;
+			buildConfigurationList = D95B1DAA3778DD4EE2DF5CF589B09299 /* Build configuration list for PBXNativeTarget "HKBaseComponent" */;
 			buildPhases = (
-				F11747F34ED186EBFCDD14491F2EC053 /* Headers */,
-				F17BEACD2764FF15A4A443D33CF32296 /* Sources */,
-				8861BB292ECA59854AB576A0E769D892 /* Frameworks */,
-				346B3F9566BC8658C8FDA0CBE486A9F6 /* Resources */,
+				85ACAD58F00B25E0917A9829B445A3D0 /* Headers */,
+				F6BCD9860B1BDCF0D4662D95C5569070 /* Sources */,
+				8D6A19DEDFAF165FD82DD31E5A700F18 /* Frameworks */,
+				AE103D973F22DD7F81E8E93896C84D1B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -342,14 +355,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		346B3F9566BC8658C8FDA0CBE486A9F6 /* Resources */ = {
+		9CCDF6457B82F01920B64FC4B256B9F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9CCDF6457B82F01920B64FC4B256B9F9 /* Resources */ = {
+		AE103D973F22DD7F81E8E93896C84D1B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,12 +395,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F17BEACD2764FF15A4A443D33CF32296 /* Sources */ = {
+		F6BCD9860B1BDCF0D4662D95C5569070 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06E0A1407F7FFC53A277D837C51A6B8F /* HKBaseComponent-dummy.m in Sources */,
-				1CF7D081130C130174AFC469E3061862 /* ReplaceMe.swift in Sources */,
+				5415728CF98A1C925B23A1FF4D587202 /* HKBaseComponent-dummy.m in Sources */,
+				1C10446F026D7DE7F236F860C7109817 /* ReplaceMe.swift in Sources */,
+				7590AFF2764A2F6BF9A69587880921E4 /* ReplaceMe1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,9 +423,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1E3BB93CA2436C483676EE5C44AD77C1 /* Debug */ = {
+		0203CC0F70CC5CA3D324FEA8B3ED55B6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A00AD895BBE6A87C5916CA1C71B554A /* HKBaseComponent.xcconfig */;
+			baseConfigurationReference = 5B6BB031814DFE71C30E7822C229C3F9 /* HKBaseComponent.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -436,10 +450,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		34C81C17E18639A29EE5C53A2F8F9A23 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -473,39 +488,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		36374D4A657DAE4F46CC1D381CA7CF8D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A00AD895BBE6A87C5916CA1C71B554A /* HKBaseComponent.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HKBaseComponent/HKBaseComponent-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HKBaseComponent/HKBaseComponent-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/HKBaseComponent/HKBaseComponent.modulemap";
-				PRODUCT_MODULE_NAME = HKBaseComponent;
-				PRODUCT_NAME = HKBaseComponent;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		498E68AE4D8B4935F381F5733EFA72B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -732,18 +714,41 @@
 			};
 			name = Debug;
 		};
+		FE4E90CA058F57E92BCBBA7C54E4A289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6BB031814DFE71C30E7822C229C3F9 /* HKBaseComponent.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HKBaseComponent/HKBaseComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HKBaseComponent/HKBaseComponent-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/HKBaseComponent/HKBaseComponent.modulemap";
+				PRODUCT_MODULE_NAME = HKBaseComponent;
+				PRODUCT_NAME = HKBaseComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1806E11EA0D3C5A7D83C4DDB8F306617 /* Build configuration list for PBXNativeTarget "HKBaseComponent" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E3BB93CA2436C483676EE5C44AD77C1 /* Debug */,
-				36374D4A657DAE4F46CC1D381CA7CF8D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -758,6 +763,15 @@
 			buildConfigurations = (
 				34C81C17E18639A29EE5C53A2F8F9A23 /* Debug */,
 				79EB043848E2C53EEA2F9EDC85AF2E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D95B1DAA3778DD4EE2DF5CF589B09299 /* Build configuration list for PBXNativeTarget "HKBaseComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4E90CA058F57E92BCBBA7C54E4A289 /* Debug */,
+				0203CC0F70CC5CA3D324FEA8B3ED55B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

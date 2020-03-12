@@ -1,4 +1,5 @@
 # HKBaseComponent
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/HaikerApple/HKBaseComponent.svg?style=flat)](https://travis-ci.org/HaikerApple/HKBaseComponent)
 [![Version](https://img.shields.io/cocoapods/v/HKBaseComponent.svg?style=flat)](https://cocoapods.org/pods/HKBaseComponent)
@@ -27,3 +28,6 @@ HaikerApple, 876253014@qq.com
 ## License
 
 HKBaseComponent is available under the MIT license. See the LICENSE file for more info.
+=======
+iOS 基础底层库
+>>>>>>> 9a8618b6033c1c170feccd79872c884a5e50180e
