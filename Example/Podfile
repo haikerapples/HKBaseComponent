@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HKBaseComponent_Example' do
+  pod 'HKBaseComponent', :path => '../'
+
+  target 'HKBaseComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
