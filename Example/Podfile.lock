@@ -1,0 +1,20 @@
+PODS:
+  - HKBaseComponent (1.0.0):
+    - HKBaseComponent/HKComponent (= 1.0.0)
+    - HKBaseComponent/HKExtension (= 1.0.0)
+  - HKBaseComponent/HKComponent (1.0.0)
+  - HKBaseComponent/HKExtension (1.0.0)
+
+DEPENDENCIES:
+  - HKBaseComponent (from `../`)
+
+EXTERNAL SOURCES:
+  HKBaseComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HKBaseComponent: 7340eb0c5ee4832ec28cd0d519695dce2252d30d
+
+PODFILE CHECKSUM: 35b4354b92833ace8a3c1538308e5ec205e37b4b
+
+COCOAPODS: 1.8.4

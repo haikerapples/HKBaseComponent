@@ -1,0 +1,6 @@
+framework module HKBaseComponent {
+  umbrella header "HKBaseComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}
